@@ -47,7 +47,7 @@ walmart-analisis-ventas-kpi-2012/
 ![Panel Principal](https://github.com/DayaRodriguezM/walmart-analisis-ventas-kpi-2012/blob/main/dashboard_principal.png)
 
 ## Análisis de Volatilidad
-![Volatilidad 2012](volatilidad_2012.png)
+![Volatilidad 2012](https://github.com/DayaRodriguezM/walmart-analisis-ventas-kpi-2012/blob/main/volatidad_2012.png)
 
 
 ## Cómo ejecutar el proyecto
