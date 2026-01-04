@@ -44,7 +44,7 @@ walmart-analisis-ventas-kpi-2012/
 ├── walmart_data_2012.xlsx → Dataset completo con análisis
 
 ## Dashboard Principal
-![Panel Principal](panel_principal.png)
+![Panel Principal](https://github.com/DayaRodriguezM/walmart-analisis-ventas-kpi-2012/blob/main/dashboard_principal.png)
 
 ## Análisis de Volatilidad
 ![Volatilidad 2012](volatilidad_2012.png)
