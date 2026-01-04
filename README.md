@@ -11,15 +11,16 @@ Responder a las siguientes preguntas clave:
 * ¿Qué departamentos aportaron más al negocio y cuáles estuvieron bajo su potencial?
 
 ## Tecnologías utilizadas
-- Google Sheets  Limpieza y transformación de datos
-- Cálculo de KPIs
-- Tablas dinámicas
-- Visualizaciones
+- **Google Sheets**
+  - Limpieza y transformación de datos
+  - Cálculo de KPIs
+  - Tablas dinámicas
+  - Visualizaciones
 
 ## Metodología
-- **Limpieza de datos:** se revisaron duplicados y valores nulos, se realizo validación de fechas y consistencia de ventas.
-- **Preparación de datos:** se unieron las tablas transaccionales y tablas de lookup. Se creó de columnas calculadas para KPIs.
-- **Análisis y visualización:** se inserto Tablas dinámicas, gráficos comparativos y dashboard resumen para stakeholders.
+- **Limpieza de datos:** Se revisaron duplicados y valores nulos, se realizó validación de fechas y consistencia de ventas.
+- **Preparación de datos:** Se unieron las tablas transaccionales y tablas de lookup. Se crearon columnas calculadas para KPIs.
+- **Análisis y visualización:** Se insertaron tablas dinámicas, gráficos comparativos y dashboard resumen para stakeholders.
 - **Comunicación ejecutiva:** Hallazgos presentados bajo el enfoque C-F-I (Context – Finding – Implication).
 
 ## Resultados principales
@@ -35,15 +36,21 @@ Responder a las siguientes preguntas clave:
   El comportamiento general fue moderadamente estable (CV promedio **0,72**).  
   **Juguetes** y **Otro** presentan alta volatilidad (CV > 1,0), mientras que **Despensa**, **Comida Fresca** y **Salud y Bienestar** muestran ventas consistentes y predecibles.
 
-### Archivos del proyecto
-├── **walmart-analisis-ventas-kpi-2012→** Dataset original, Data clean y tablas de referencia.
+## Estructura del proyecto
+walmart-analisis-ventas-kpi-2012/
 
-  ├── dashboard → Capturas del dashboard final en Google Sheets
+├── README.md
+
+├── walmart_data_2012.xlsx → Dataset completo con análisis
+
+└── images/
+
+    └── dashboard_preview.png → Capturas del dashboard
 
 
 ## Cómo ejecutar el proyecto
-- Abrir el archivo de Google Sheets incluido en la carpeta /data.
-- Revisar la Hoja README para la comprensión del objetivo, definicion de KPIs, Documentación Técnica, Proceso de validación e Insights y recomendaciones ejecutivas  
-- Revisar las hojas de limpieza y transformación de datos.
-- Explorar las tablas dinámicas y visualizaciones.
-- Consultar el dashboard para visualizar los KPIs principales.
+- Descargar el archivo `walmart_data_2012.xlsx`.
+- Revisar la hoja **README** para comprensión del objetivo, definición de KPIs y documentación técnica.
+- Explorar las hojas de limpieza y transformación de datos.
+- Consultar las tablas dinámicas y visualizaciones.
+- Revisar el **Dashboard** para visualizar los KPIs principales
